@@ -90,5 +90,8 @@ Android 快速捕捉
 
 - 已准备项目级 `.gitignore`；
 - 已生成本交接文件；
-- 接下来需要初始化 Git、检查待提交文件并创建迁移检查点；
-- Git 远程仓库地址和远程平台尚未提供，完成本地提交后再配置 `origin` 并推送。
+- 已初始化 Git，并完成迁移检查点提交；
+- Git 远程仓库已配置为 `https://github.com/lin-hongzhou/note-ai.git`；
+- `main` 已推送到远程；新电脑可执行：`git clone https://github.com/lin-hongzhou/note-ai.git`；
+- 不要将旧电脑的用户级 Codex 会话目录、`auth.json`、`secrets/` 或任何会话备份提交到本仓库。
+
