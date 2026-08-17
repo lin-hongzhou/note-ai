@@ -1,0 +1,29 @@
+﻿# Secrets and local environment
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Local databases and caches
+*.sqlite
+*.sqlite3
+*.db
+__pycache__/
+*.pyc
+
+# Trellis machine/session state
+.trellis/.developer
+.trellis/.current-task
+.trellis/.runtime/
+.trellis/**/.plan-log
+.trellis/**/.session-id
+.trellis/**/.agent-log
+
+# Editor/OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
